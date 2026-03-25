@@ -8,7 +8,7 @@ Clone Repos
  - cd :\Program Files\Git\bin
  - exec ssh-agent bash
  - ssh-add c:/Users/Jimmy/.ssh/id_ed25519
- - add the key to github
+ - add the key to github (settings > SSH/PGP Keys)
  - ssh -T git@github.com <- successful test
 
 https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
